@@ -135,7 +135,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-#Example :
+# Example :
 
 ```python
 from requests import request
@@ -156,13 +156,13 @@ r.close()
 data is : hello world 😎😎
 ```
 
-#Note:
+# Note:
 ```text
 you can use the push function to update or insert data on you database
 i will show you how to do that in the next example.
 ```
 
-#Example :
+# Example :
 you can make another function and give it any name you like and update your data throw it
 
 ```python
@@ -200,7 +200,7 @@ if __name__ == "__main__":
 
 ```
 
-#Security
+# Security
 If you want to make your API you must sure that you are the only one who can reach it
 so I will show you two methods to add security to your API
 
@@ -267,7 +267,7 @@ if __name__ == "__main__":
 
 ```
 
-#Example:
+# Example:
 Make request to our Api
 
 ```python
@@ -291,7 +291,7 @@ r.close()
 
 
 
-#Second Method
+# Second Method
 
 This method is similar to a trick because you will enter the password
 or any other information as parameter in order to verify the request.
@@ -344,7 +344,7 @@ if __name__ == "__main__":
 ```
 
 
-#Example:
+# Example:
 Make request to our Api
 
  ```python
