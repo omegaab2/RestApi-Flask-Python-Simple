@@ -72,7 +72,7 @@ def get():
 if __name__ == "__main__":
     app.run(debug=True)
 ```
-#Example :
+# Example :
 this part get the parameters from our Api url
 for example we will use localhost server to 
 make request to our Api
@@ -205,7 +205,7 @@ If you want to make your API you must sure that you are the only one who can rea
 so I will show you two methods to add security to your API
 
 
-#First Method
+# First Method
 
 you can use auth in your API so when someone sent request to your API 
 he/she can't get receive or send data through your API if he/she does not  have auth information.
